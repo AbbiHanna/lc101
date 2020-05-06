@@ -1,6 +1,10 @@
+//bonus mission
+let astronautCount;
+const input = require('readline-sync');
+astronautCount = input.question("How many astronauts are there?: ");
+
 let date = "Monday 2019-03-18";
 let time = "10:05:34 AM";
-let astronautCount = 7;
 let astronautStatus = "ready";
 let averageAstronautMassKg = 80.7;
 let crewMassKg = astronautCount * averageAstronautMassKg;
@@ -13,13 +17,14 @@ let weatherStatus = "clear";
 
 let lines = "-------------------------------------";
 
+
 console.log(lines);
 console.log("> LC04 - LAUNCH CHECKLIST");
 console.log(lines);
 console.log("Date: " + date);
 console.log("Time: " + time);
 console.log("");
-console.log(lines):
+console.log(lines);
 console.log("> ASTRONAUT INFO");
 console.log(lines);
 console.log("* count: " + astronautCount);
